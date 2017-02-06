@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+// Variable overrides come first (without !default). Bootstrap default variables
+// come second because they use !default (they won't get set if set already) and
+// some of them depend on our overrides.
+@import "pilatus-custom-variables";
+
 // Core variables and mixins
 @import "variables.less";
 @import "mixins.less";

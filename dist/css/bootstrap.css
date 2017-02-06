@@ -3398,6 +3398,63 @@ fieldset[disabled] .btn-danger.focus {
   color: #d9534f;
   background-color: #fff;
 }
+.btn-pilatus {
+  color: #fff;
+  background-color: #0d2d82;
+  border-color: #0b256b;
+}
+.btn-pilatus:focus,
+.btn-pilatus.focus {
+  color: #fff;
+  background-color: #081d54;
+  border-color: #000;
+}
+.btn-pilatus:hover {
+  color: #fff;
+  background-color: #081d54;
+  border-color: #051233;
+}
+.btn-pilatus:active,
+.btn-pilatus.active,
+.open > .dropdown-toggle.btn-pilatus {
+  color: #fff;
+  background-color: #081d54;
+  border-color: #051233;
+}
+.btn-pilatus:active:hover,
+.btn-pilatus.active:hover,
+.open > .dropdown-toggle.btn-pilatus:hover,
+.btn-pilatus:active:focus,
+.btn-pilatus.active:focus,
+.open > .dropdown-toggle.btn-pilatus:focus,
+.btn-pilatus:active.focus,
+.btn-pilatus.active.focus,
+.open > .dropdown-toggle.btn-pilatus.focus {
+  color: #fff;
+  background-color: #051233;
+  border-color: #000;
+}
+.btn-pilatus:active,
+.btn-pilatus.active,
+.open > .dropdown-toggle.btn-pilatus {
+  background-image: none;
+}
+.btn-pilatus.disabled:hover,
+.btn-pilatus[disabled]:hover,
+fieldset[disabled] .btn-pilatus:hover,
+.btn-pilatus.disabled:focus,
+.btn-pilatus[disabled]:focus,
+fieldset[disabled] .btn-pilatus:focus,
+.btn-pilatus.disabled.focus,
+.btn-pilatus[disabled].focus,
+fieldset[disabled] .btn-pilatus.focus {
+  background-color: #0d2d82;
+  border-color: #0b256b;
+}
+.btn-pilatus .badge {
+  color: #0d2d82;
+  background-color: #fff;
+}
 .btn-link {
   font-weight: normal;
   color: #337ab7;
